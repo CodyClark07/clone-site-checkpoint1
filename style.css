@@ -5,8 +5,14 @@ body{
 }
 
 .bg-teal {
-    background-color: rgb(59, 233, 200)
-    ;
+    background-color: rgb(59, 233, 200);
+    
+}
+
+.bg-moosen {
+    background-image: url(https://i.imgur.com/Xuxi0Im.png);
+    background-repeat: no-repeat;
+    height: 230px;
 }
 
 .bg-transparent-tan {
