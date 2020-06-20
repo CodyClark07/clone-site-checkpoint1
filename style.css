@@ -4,17 +4,10 @@ body{
     font-family: 'Londrina Solid', cursive;
 }
 #moose-vid {
-    height: 100%;
-    width: 170vh;
-    min-width: 100%;
-    min-height: 57vw;
-    position: fixed;
-    top: -7em;
-    z-index: -1;
-    transform: scale(90%, 90vh);
+  
 }
-.bg-teal {
-    background-color: rgb(59, 233, 200);
+.bg-moss {
+    background-color: rgb(0, 102, 42);
     
 }
 
@@ -25,7 +18,7 @@ body{
 }
 
 .bg-transparent-tan {
-    background-color: rgba(240, 190, 125, 0.644);
+    background-color:rgba(255, 255, 240,0.6);
 }
 .text-shadow{
     text-shadow: 0px 0px 8px 2% black;
@@ -39,9 +32,12 @@ body{
     position: relative;
 }
 
+.antler-color{
+    color:rgba(255, 255, 240,0.6);
+}
 .card-icons{
     display: flex;
-    background-color: rgba(240, 190, 125, 0.644);
+    background-color:rgba(255, 255, 240,0.6);
     color: green;
     height: 225px;
     width: 500px;
@@ -49,8 +45,7 @@ body{
 
 .div-absolute{
     position: absolute;
-    top: 5px;
-    right: 20px;
+   
 }
 .bg-moose {
       background-image: url(moose.jpg);
@@ -58,26 +53,8 @@ body{
       justify-content: center;
   }
 
-.text-box-1 {
-      padding: 15;
-      background-color: white;
-      width: 35vw;
-  }
-
-  .text-box-2 {
-    padding: 15;
-    background-color: white;
-    width: 15vw;
-}
-
-  .text-line {
-    padding: 1;
-    background-color: white;
-    width: 25vw;
-}
-
 .border-line{
-    border-left: solid 10px green;
+    border-left: solid 10px rgb(0, 102, 42);
 }
 
 .place-image {
@@ -86,3 +63,25 @@ body{
     width: 30vw;
     color: white;
 }
+
+.review-outline{
+    border: solid 1px red;
+}
+.paddingcard {
+    padding: 50;
+}
+ .paddingcards {
+     padding-top:100;
+     padding-bottom:100;
+ }
+
+ @media only screen and (min-width: 700px)
+ {.absolute-card {
+    display: flex;
+    justify-self: flex-end;
+    position: absolute;
+    top: 500px;
+    right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}}
