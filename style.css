@@ -3,7 +3,11 @@ body{
     width: 100%;
     font-family: 'Londrina Solid', cursive;
 }
-
+#moose-vid{
+    position:absolute;
+    width: 120%;
+    height: 100%;
+}
 .moose-logo {
     background: transparent;
     max-height: 50px;
