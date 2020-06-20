@@ -3,7 +3,16 @@ body{
     width: 100%;
     font-family: 'Londrina Solid', cursive;
 }
-
+#moose-vid {
+    height: 100%;
+    width: 170vh;
+    min-width: 100%;
+    min-height: 57vw;
+    position: fixed;
+    top: -7em;
+    z-index: -1;
+    transform: scale(90%, 90vh);
+}
 .bg-teal {
     background-color: rgb(59, 233, 200);
     
