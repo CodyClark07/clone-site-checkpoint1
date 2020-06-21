@@ -28,8 +28,9 @@ body{
 
 .bg-moosen {
     background-image: url(https://i.imgur.com/Xuxi0Im.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 230px;
+    height: 245px;
 }
 
 .bg-transparent-tan {
@@ -68,8 +69,9 @@ body{
 }
 .bg-moose {
       background-image: url(moose.jpg);
-      background-size: cover;
-      justify-content: center;
+      background-size: contain;
+      background-repeat: no-repeat
+      ;
   }
 
 .border-line{
